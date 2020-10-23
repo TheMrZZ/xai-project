@@ -18,7 +18,7 @@ from utils import get_data_path
 def eval_metrics(y_true, y_pred):
     accuracy = accuracy_score(y_true, y_pred)
     f1 = f1_score(y_true, y_pred)
-    tn, fp, fn, tp = confusion_matrix([0, 1, 0, 1], [1, 1, 1, 0]).ravel()
+    tn, fp, fn, tp = confusion_matrix(y_true, y_pred).ravel()
     return accuracy, f1, tp, fp, tn, fn
 
 

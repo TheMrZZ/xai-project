@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Flori/PycharmProjects/xai-project/src/mlruns/0/a4b78579178f46a68b1ecb33110ebc0a/artifacts
+end_time: 1603468514624
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+name: ''
+run_id: a4b78579178f46a68b1ecb33110ebc0a
+run_uuid: a4b78579178f46a68b1ecb33110ebc0a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1603468278333
+status: 3
+tags: []
+user_id: Flori
