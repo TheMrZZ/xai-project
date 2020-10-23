@@ -1,9 +1,7 @@
 ### Application-specific
 
 # Datasets
-data/application_test.csv
-data/application_train.csv
-
+data/*.csv
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
