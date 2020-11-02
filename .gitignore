@@ -3,6 +3,12 @@
 # Datasets
 data/*.csv
 
+# Mlruns
+src/mlruns
+
+# Our .zip file
+xai-project-Florian-ERNST-Jeremy-TRULLIER.zip
+
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/

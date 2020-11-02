@@ -1,1 +1,0 @@
-GradientBoostingClassifier(learning_rate=0.2, n_estimators=10)
