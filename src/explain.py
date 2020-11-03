@@ -23,7 +23,7 @@ def explain(model: XGBClassifier, df: pd.DataFrame, frac: float = 0.1) -> None:
     explainer = shap.TreeExplainer(model)
 
     print('Explaining values...')
-    samples = df.sample(10)
+    samples = df.sample(1000)
     shap_values = explainer.shap_values(samples)
 
     print('Plotting...')

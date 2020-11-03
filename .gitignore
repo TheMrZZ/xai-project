@@ -1,7 +1,7 @@
 ### Application-specific
 
 # Datasets
-data/*.csv
+data
 
 # Mlruns
 src/mlruns
